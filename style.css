@@ -4,12 +4,13 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color:wheat;
+    background-color: wheat;
     color: aliceblue;
 }
 
@@ -59,6 +60,7 @@ body {
     background-size: cover;
     background-position: center;
 }
+
 #fruit-section {
     padding: 10px;
     background-color: bisque;
@@ -104,7 +106,7 @@ body {
     color: black;
 }
 
-.fruit-card:hover{
+.fruit-card:hover {
     background-color: beige;
     box-shadow: 10px 10px 20px black;
     transform: scale(1.2);
@@ -134,26 +136,28 @@ table ol {
     list-style-type: lower-alpha;
 }
 
-#veg-section h4{
+#veg-section h4 {
     color: aliceblue;
 }
 
-#veg-section p{
+#veg-section p {
     color: aliceblue;
 }
 
-#veg-section{
+#veg-section {
     padding: 15px;
-    background-color:darkslategray;
+    background-color: darkslategray;
 }
-.footer{
+
+.footer {
     padding: 15px;
-    background-color:darkgoldenrod ;
+    background-color: darkgoldenrod;
     text-align: center;
 }
-.recipe-card{
-   padding: 15px;
-   background-color: orange;
+
+.recipe-card {
+    padding: 15px;
+    background-color: orange;
     width: 300px;
     height: 400px;
 
@@ -162,48 +166,50 @@ table ol {
     transition: all 1s;
 }
 
-#recipe-section{
-    background-color:bisque;
-}
-#recipe-section h4{
-    color:black;
+#recipe-section {
+    background-color: bisque;
 }
 
-#recipe-section p{
-    color:black;
+#recipe-section h4 {
+    color: black;
 }
 
-.recipe-card img{
+#recipe-section p {
+    color: black;
+}
+
+.recipe-card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
-.recipe-card:hover{
+
+.recipe-card:hover {
     background-color: brown;
     box-shadow: 10px 10px 20px black;
     transform: scale(1.2);
 }
 
-.contact-section{
+.contact-section {
     background-color: burlywood;
 }
 
 
-#contact-section{
-    background-color:burlywood;
+#contact-section {
+    background-color: burlywood;
 }
 
-#contact-section h4{
-    color:black;
+#contact-section h4 {
+    color: black;
 }
 
-#contact-section p{
-    color:black;
+#contact-section p {
+    color: black;
 }
 
-.contact-card{
-   padding: 15px;
-   background-color:ghostwhite;
+.contact-card {
+    padding: 15px;
+    background-color: ghostwhite;
     width: 300px;
     height: 400px;
 
@@ -211,21 +217,25 @@ table ol {
     box-shadow: 0px 0px 50px black;
     transition: all 1s;
 }
-.contact-card img{
+
+.contact-card img {
     width: 100%;
     height: 100;
     object-fit: cover;
-     border-radius: 10px;
+    border-radius: 10px;
     border: 2px solid black;
 }
-.contact-card:hover{
-    background-color:cornsilk;
+
+.contact-card:hover {
+    background-color: cornsilk;
     box-shadow: 10px 10px 20px black;
     transform: scale(1.2);
 }
-.contact-card h4{
+
+.contact-card h4 {
     color: #000;
 }
-.contact-card p{
+
+.contact-card p {
     color: #000;
 }
