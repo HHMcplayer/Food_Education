@@ -9,7 +9,7 @@ html{
 }
 
 body {
-    background-color: rgb(106, 106, 155);
+    background-color:wheat;
     color: aliceblue;
 }
 
@@ -51,6 +51,14 @@ body {
     background-position: center;
 }
 
+.banner3 {
+    padding: 15px;
+    background-color: blanchedalmond;
+    height: 350px;
+    background-image: url("images\ \(7\).jpg");
+    background-size: cover;
+    background-position: center;
+}
 #fruit-section {
     padding: 10px;
     background-color: bisque;
@@ -75,6 +83,8 @@ body {
     display: inline-block;
     overflow: hidden;
     margin: 15px;
+    box-shadow: 0px 0px 50px black;
+    transition: all 1s;
 
 }
 
@@ -92,6 +102,12 @@ body {
 
 .fruit-card p {
     color: black;
+}
+
+.fruit-card:hover{
+    background-color: beige;
+    box-shadow: 10px 10px 20px black;
+    transform: scale(1.2);
 }
 
 table {
@@ -117,9 +133,18 @@ table ol {
     margin-left: 35px;
     list-style-type: lower-alpha;
 }
+
+#veg-section h4{
+    color: aliceblue;
+}
+
+#veg-section p{
+    color: aliceblue;
+}
+
 #veg-section{
     padding: 15px;
-    background-color: lightcoral;
+    background-color:darkslategray;
 }
 .footer{
     padding: 15px;
@@ -136,6 +161,18 @@ table ol {
     box-shadow: 0px 0px 50px black;
     transition: all 1s;
 }
+
+#recipe-section{
+    background-color:bisque;
+}
+#recipe-section h4{
+    color:black;
+}
+
+#recipe-section p{
+    color:black;
+}
+
 .recipe-card img{
     width: 100%;
     height: 200px;
@@ -144,5 +181,51 @@ table ol {
 .recipe-card:hover{
     background-color: brown;
     box-shadow: 10px 10px 20px black;
-    transform: scale(1.2) ;
+    transform: scale(1.2);
+}
+
+.contact-section{
+    background-color: burlywood;
+}
+
+
+#contact-section{
+    background-color:burlywood;
+}
+
+#contact-section h4{
+    color:black;
+}
+
+#contact-section p{
+    color:black;
+}
+
+.contact-card{
+   padding: 15px;
+   background-color:ghostwhite;
+    width: 300px;
+    height: 400px;
+
+    margin: 50px auto;
+    box-shadow: 0px 0px 50px black;
+    transition: all 1s;
+}
+.contact-card img{
+    width: 100%;
+    height: 100;
+    object-fit: cover;
+     border-radius: 10px;
+    border: 2px solid black;
+}
+.contact-card:hover{
+    background-color:cornsilk;
+    box-shadow: 10px 10px 20px black;
+    transform: scale(1.2);
+}
+.contact-card h4{
+    color: #000;
+}
+.contact-card p{
+    color: #000;
 }
